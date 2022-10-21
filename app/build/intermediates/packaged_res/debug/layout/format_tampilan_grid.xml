@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="155dp"
+            android:layout_height="250dp">
+
+            <ImageView
+                android:id="@+id/gambarmenu"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/menu1"/>
+
+            <TextView
+                android:id="@+id/namamenu"
+                android:layout_below="@+id/gambarmenu"
+                android:layout_marginLeft="15dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:text="nama menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/hargamenu"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"
+                android:layout_below="@+id/gambarmenu"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:text="harga menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/satuanmenu"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_below="@+id/hargamenu"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:text="satuan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
